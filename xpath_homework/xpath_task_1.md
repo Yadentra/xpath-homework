@@ -1,7 +1,7 @@
 # Task 1: XPaths for the Given HTML Document
 
 
-1. XPath to locate the main `<h1>` element:
+## 1. XPath to locate the main `<h1>` element:
 
 //h1[@id='mainTitle']
 
@@ -56,7 +56,7 @@
 //section[@id='services']//ul/li[2]/p
 
 
-12. XPath to select the "Contact Us" section header (<h2> element):
+12. XPath to select the "Contact Us" section header (`<h2>` element):
 
 //section[@id='contact']//h2
 
