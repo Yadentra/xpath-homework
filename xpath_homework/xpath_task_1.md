@@ -1,7 +1,7 @@
 # Task 1: XPaths for the Given HTML Document
 
 
-## 1. XPath to locate the main `<h1>` element:
+### 1. XPath to locate the main `<h1>` element:
 
 //h1[@id='mainTitle']
 
