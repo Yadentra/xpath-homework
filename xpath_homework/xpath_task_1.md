@@ -46,7 +46,7 @@
 //footer//p
 
 
-10. XPath to select the first team member's <h4> name:
+10. XPath to select the first team member's `<h4>` name:
 
 //div[@class='team']//h4[1]
 
@@ -66,7 +66,7 @@
 //nav//a[text()='Services']/following-sibling::ul//a
 
 
-14. XPath to select the first <li> under the "Our Team" section:
+14. XPath to select the first `<li>` under the "Our Team" section:
 
 //section[@id='our-team']//ul/li[1]
 
