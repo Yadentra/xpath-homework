@@ -18,27 +18,27 @@
 
 ### 4. XPath to select the team member's name "Jane Smith":
 
-//div[@class='team']//h4[text()='Jane Smith']
+//div[@class='team']//li[h4[text()='Jane Smith']]/h4
 
 
 ### 5. XPath to select the description (which is inside the paragraph) of SEO Services:
 
-//section[@id='services']//p[text()='SEO Services']/following-sibling::p
+//div[@class='service-item'][h3[text()='SEO Services']]/p
 
 
 ### 6. XPath to select all service items in the "Our Services" section:
 
-//section[@id='our-services']//ul/li
+//section[@id='services']//div[@class='service-item']
 
 
 ### 7. XPath to select the email input field in the contact form:
 
-//form[@id='contact-form']//input[@type='email']
+//form[@id='contactForm']//input[@id='email']
 
 
 ### 8. XPath to select the entire contact form:
 
-//form[@id='contact-form']
+//section[@id='contact']/h2
 
 
 ### 9. XPath to select the footer paragraph element:
@@ -68,9 +68,9 @@
 
 ### 14. XPath to select the first `<li>` under the "Our Team" section:
 
-//section[@id='our-team']//ul/li[1]
+//div[@class='team']//ul/li[1]
 
 
 ### 15. XPath to locate the "Send Message" button in the contact form:
 
-//form[@id='contact-form']//button[@type='submit']
+//form[@id='contactForm']//input[@type='submit']
